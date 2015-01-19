@@ -1,0 +1,58 @@
+table { 
+	border: 2px solid black;
+	margin-top:10px; 
+	margin-left:10px 
+}
+
+td, th { 
+	border: 1px solid black;
+}
+
+tbody td:nth-child(1){
+	font-style: italic;
+}
+
+tbody td:nth-child(2){
+	color:red;
+}
+
+tbody tr:nth-child(2n){
+	background:cyan;
+}
+tbody tr:nth-child(1){
+	background:white;
+}
+tbody tr:nth-child(2n+1){
+	background:chartreuse;
+}
+
+tfoot td {
+	background: white; 
+	height:22px !important;
+}
+
+dt:hover + dd {
+	background-color:purple
+} 
+
+.outer-content {
+	width: 75%; 
+	background-color: pink; 
+	position: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.inner-content {
+	width: 75%; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+	background-color: cyan
+}
+
+img {float:left;}
+
+
+
